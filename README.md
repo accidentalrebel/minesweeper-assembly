@@ -33,7 +33,7 @@ I wanted a challenge so I restricted myself to having less registers. I've also 
 ### Why DOS?
 I have a good amount of experience with DOS interrupts thanks to my previous Assembly game, [SudokuBoy](https://github.com/accidentalrebel/SudokuBoy). It has a limited API but you can already do a lot with it.
 
-### Why NASM
+### Why NASM?
 It is the most widely used assembler I've seen lately. One big reason I chose this is because there's a [nasm-mode](https://github.com/skeeto/nasm-mode) Emacs package that handles syntax-highlighting and automatic indentation. With this I didn't need to install a different editor for writing assembly.
 
 ### Powerkit?
