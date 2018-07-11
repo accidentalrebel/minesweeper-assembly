@@ -3,6 +3,10 @@ A minesweeper game written in 16-bit assembly. Compiled with NASM. Runs on DOS.
 
 The project is abandoned. I've released the source in the hopes that it will help others how to make a game in assembly.
 
+![Screenshot1](https://github.com/accidentalrebel/SudokuBoy/blob/master/images/screenshot1.png)
+
+![Screenshot2](https://github.com/accidentalrebel/SudokuBoy/blob/master/images/screenshot2.png)
+
 ## Implemented features
 + Debug functions - Contains simple but handy functions for debbuging. Can log single characters and can do assertions.
 + Random number generation - Uses Xorshift algorithm. Can generate a random number from 0 to 65534. Also has helper functions to generate a value from within a range or a random percentage.
@@ -41,10 +45,13 @@ The random number generator requires a seed. For this project I made use of the 
 ### Why Xorshift algorithm for random generation?
 Xorshift is the easiest to implement especially because I've restricted myself to using 16-bit registers. Read more about it here: https://en.wikipedia.org/wiki/Xorshift
 
+### Why text-mode? Why not VGA?
+Because I like how text-mode graphics look and because it's easier to implement than VGA.
+
 ## References
-[INT 21h Reference](spike.scu.edu.au/~barry/interrupts.html) - MS DOS API
-[INT 10h Reference](http://stanislavs.org/helppc/int_10.html) - Video BIOS Services
-[The Zen of Assembly](http://www.jagregory.com/abrash-zen-of-asm/#introduction-pushing-the-envelope) - The book that reignited my interest with Assembly. Targeted for advanced users.
-[ASM tutorial](https://github.com/0xAX/asm) - A good introductory tutorial to assembly
-[SokobanDOS](https://github.com/adamsmasher/sokobanDOS/tree/master/lesson1) - Another good tutorial. Gave me the idea to target 16-bit DOS specifically.
++ [INT 21h Reference](spike.scu.edu.au/~barry/interrupts.html) - MS DOS API
++ [INT 10h Reference](http://stanislavs.org/helppc/int_10.html) - Video BIOS Services
++ [The Zen of Assembly](http://www.jagregory.com/abrash-zen-of-asm/#introduction-pushing-the-envelope) - The book that reignited my interest with Assembly. Targeted for advanced users.
++ [ASM tutorial](https://github.com/0xAX/asm) - A good introductory tutorial to assembly
++ [SokobanDOS](https://github.com/adamsmasher/sokobanDOS/tree/master/lesson1) - Another good tutorial. Gave me the idea to target 16-bit DOS specifically.
 
