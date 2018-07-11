@@ -3,9 +3,9 @@ A minesweeper game written in 16-bit assembly. Compiled with NASM. Runs on DOS.
 
 The project is abandoned. I've released the source in the hopes that it will help others how to make a game in assembly.
 
-![Screenshot1](https://github.com/accidentalrebel/SudokuBoy/blob/master/images/screenshot1.png)
+![Screenshot1](https://github.com/accidentalrebel/minesweeper-assembly/blob/master/images/screenshot1.png)
 
-![Screenshot2](https://github.com/accidentalrebel/SudokuBoy/blob/master/images/screenshot2.png)
+![Screenshot2](https://github.com/accidentalrebel/minesweeper-assembly/blob/master/images/screenshot2.png)
 
 ## Implemented features
 + Debug functions - Contains simple but handy functions for debbuging. Can log single characters and can do assertions.
